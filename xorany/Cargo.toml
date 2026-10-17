@@ -1,0 +1,15 @@
+[package]
+name = "xorany"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "Compile-time string obfuscation for Rust with per-call-site unique decrypt functions. Based on oxorany. Static-only; does not resist emulation attacks."
+repository = "https://github.com/clauadv/xorany"
+documentation = "https://docs.rs/xorany"
+readme = "README.md"
+keywords = ["obfuscation", "proc-macro", "constants", "security", "reverse-engineering"]
+categories = ["development-tools"]
+
+[dependencies]
+xorany-macros = { path = "../xorany-macros", version = "0.1.0" }

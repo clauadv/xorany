@@ -1,0 +1,14 @@
+[package]
+name = "xorany-macros"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "Proc-macro backend for the xorany crate. Do not use directly."
+repository = "https://github.com/clauadv/xorany"
+readme = "README.md"
+keywords = ["obfuscation", "proc-macro", "constants", "security"]
+categories = ["development-tools"]
+
+[lib]
+proc-macro = true
