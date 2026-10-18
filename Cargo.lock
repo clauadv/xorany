@@ -4,11 +4,11 @@ version = 3
 
 [[package]]
 name = "xorany"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "xorany-macros",
 ]
 
 [[package]]
 name = "xorany-macros"
-version = "0.1.0"
+version = "0.1.1"
